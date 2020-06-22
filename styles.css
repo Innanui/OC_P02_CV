@@ -66,12 +66,12 @@ aside div:nth-child(4){
 	width : 50%;
 	}
 
-.sport{
-	height: 50px;
-}
-
 .icons{
-	max-width: 15%;
+	width: 50px;
+	height: 50px;
+	border : 1.5px solid rgb(60, 60, 60);
+	border-radius : 30px;
+	display: flex;
 	
 }
 
@@ -81,8 +81,14 @@ aside div:nth-child(4){
 	align-content: center;
 	flex-direction: row;
 	padding-bottom:20px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+aside i {
+	font-size : 35px;
+	margin : auto;
+	color: rgb(60, 60, 60);
 }
 
 /* Positionnement au sein de main */
@@ -145,7 +151,7 @@ main h3 {
 	border-bottom: 1px solid #f1c307;
 }
 
-span, i {
+h1 span, main i {
 	color: #f1c307;
 }
 
@@ -154,8 +160,13 @@ li i {
 	margin-top : 7px;
 }
 
-span {
+h1 span {
 	font-weight: 400;
+}
+
+h2 span {
+	border-bottom : 2px solid #f1c307;
+	padding-bottom : 3px;
 }
 
 ul {
@@ -241,17 +252,12 @@ main p {
 		margin-bottom:5px;
 	}
 
-	aside div {
-		margin-top : 10px;
-	}
-
 	aside div:nth-child(1){
-	margin-top : 0px;
 	padding-top : 0px;
 	position : relative;
 	}
 
-	aside div:nth-child(2){
+	aside div{
 	margin-top : 0px;
 	}
 
@@ -261,8 +267,8 @@ main p {
 		font-size : 20px;
 	}
 
-	#icons {
-		margin-top : 10px;
+	#loisirs {
+		margin-top : 20px;
 	}
 
 	#div_photo {
